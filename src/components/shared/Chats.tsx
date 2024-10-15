@@ -11,7 +11,7 @@ const Chat = () => {
         localStorage.removeItem('username');
         localStorage.removeItem('password');
 
-        router.push('/')
+        window.location.reload();
     };
     return (
         <>
