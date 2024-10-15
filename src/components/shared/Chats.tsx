@@ -1,12 +1,10 @@
 "use client"
 
-import { useRouter } from 'next/navigation';
 // @ts-expect-error This is a workaround due to type issues with the react-chat-engine library
 import { ChatEngine } from 'react-chat-engine';
 import { Button } from '../ui/button';
 
 const Chat = () => {
-    const router = useRouter();
     const handleClearCredentials = () => {
         localStorage.removeItem('username');
         localStorage.removeItem('password');
