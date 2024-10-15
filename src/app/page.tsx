@@ -38,6 +38,9 @@ const LoginComponent = () => {
 
   useEffect(() => {
     // Check if username and password are stored in local storage
+
+    // 2f05e116-b4c9-4898-bd9e-d09696fff5ef
+    // 3790ba69-ebd5-4538-a05b-6c87e18d79bd
     const storedUsername = localStorage.getItem("username");
     const storedPassword = localStorage.getItem("password");
 
